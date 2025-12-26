@@ -222,7 +222,7 @@ h2 {
   text-align: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1025px) {
   .hero-container {
     flex-direction: row-reverse;
     text-align: left;
@@ -494,4 +494,18 @@ h2 {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+/* Flow Link Style */
+.flow-link {
+  font-style: italic;
+  border-bottom: 1px solid rgba(226, 255, 194, 0.5);
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.flow-link:hover {
+  border-bottom-color: var(--text-primary);
+  opacity: 0.8;
 }

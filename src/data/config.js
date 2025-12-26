@@ -17,13 +17,12 @@ export const config = {
             line1: "Frontend",
             line2: "Engineer",
         },
-        description: "Crafting beautiful and performant UIs with a focus on minimalism, aesthetics, and smooth interaction.",
+        description: "Engineering for flow — where focus, intent, and execution converge.",
     },
     about: {
         title: "About Me",
         description: [
-            "I am a passionate frontend engineer with a keen eye for design. I believe that good software should not only function perfectly but also provide a delightful user experience.",
-            "My approach to development is grounded in minimalism – stripping away the non-essential to let the core purpose shine. Whether it's a complex web application or a simple portfolio, I strive for elegance in code and design.",
+            "I am a passionate frontend engineer with a keen eye for design. Driven by a deep respect for [[flow]] — the state where attention sharpens and meaningful work happens without resistance. I believe flow isn’t limited to coding; it appears in music, film, and any craft refined with care. My approach to software engineering centers on reducing friction, designing clear mental models, and building interfaces that feel intuitive enough to disappear, allowing users — and teams — to stay fully immersed in the problem at hand.",
         ],
         skills: {
             design: {
@@ -59,6 +58,13 @@ export const config = {
                 tenure: "June/21 - Feb/23",
                 image: "https://www.interviewchacha.com/images/company_logos/bluestack.jpg",
                 url: "https://www.bluestacks.com/",
+            },
+            {
+                title: "IBM",
+                category: "Software Engineer",
+                tenure: "Jan/21 - June/21",
+                image: "https://substackcdn.com/image/fetch/$s_!aFzv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa27a43b7-f1ec-4586-9898-5f43c9b7cdbf_1000x1000.jpeg",
+                url: "https://www.ibm.com/",
             },
         ],
     },

@@ -106,12 +106,12 @@ const Hero = () => {
                         y: '-50%'
                     }}
                     animate={{
-                        scale: [1, 1.2, 1],
-                        opacity: [0.4, 0.7, 0.4]
+                        scale: [1, 1.15, 1],
+                        opacity: [0.3, 0.6, 0.3]
                     }}
                     transition={{
-                        scale: { duration: 8, repeat: Infinity, ease: "easeInOut" },
-                        opacity: { duration: 8, repeat: Infinity, ease: "easeInOut" }
+                        scale: { duration: 4, repeat: Infinity, ease: "easeInOut" },
+                        opacity: { duration: 4, repeat: Infinity, ease: "easeInOut" }
                     }}
                 />
             </motion.div>
