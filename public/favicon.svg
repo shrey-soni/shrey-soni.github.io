@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#05201F"/>
+  
+  <!-- Central Focus Dot -->
+  <circle cx="32" cy="32" r="8" fill="#E2FFC2"/>
+  
+  <!-- Static Ripple Ring 1 (Inner) -->
+  <circle cx="32" cy="32" r="16" stroke="#E2FFC2" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Static Ripple Ring 2 (Outer) -->
+  <circle cx="32" cy="32" r="24" stroke="#E2FFC2" stroke-width="2" opacity="0.3"/>
+</svg>

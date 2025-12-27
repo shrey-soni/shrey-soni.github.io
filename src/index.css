@@ -317,7 +317,7 @@ h2 {
 /* Experience Timeline */
 .experience-timeline {
   position: relative;
-  border-left: 1px solid var(--glass-border);
+  /* Removed global border */
   margin-left: 1rem;
   padding-left: 2rem;
   padding-top: 1rem;
@@ -325,21 +325,54 @@ h2 {
 
 .timeline-item {
   position: relative;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  /* Use padding for spacing to allow line to connect */
+  margin-bottom: 0;
 }
 
 .timeline-item:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Vertical Line */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--glass-border);
+}
+
+/* First item: start line at the marker center */
+.timeline-item:first-child::before {
+  top: calc(50% - 2rem);
+}
+
+/* Last item: end line at the marker center */
+.timeline-item:last-child::before {
+  bottom: 50%;
 }
 
 .timeline-marker {
   position: absolute;
   left: -2.35rem;
-  /* Adjust based on border width and padding */
-  top: 0.5rem;
+  top: calc(50% - 2rem);
+  transform: translateY(-50%);
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 50%;
+  border: 1px solid var(--text-primary);
+  z-index: 1;
+  background-color: var(--bg-color);
+}
+
+.timeline-item:last-child .timeline-marker {
+  top: 50%;
+}
+
+.marker-active {
   background-color: var(--text-primary);
   box-shadow: 0 0 10px var(--text-primary);
 }

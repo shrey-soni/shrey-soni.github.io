@@ -25,7 +25,7 @@ const Experience = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                         >
-                            <div className="timeline-marker"></div>
+                            <div className={"timeline-marker " + (index === 0 ? "marker-active" : "")}></div>
                             <a
                                 href={exp.url}
                                 target="_blank"

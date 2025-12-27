@@ -2,6 +2,23 @@ export const config = {
     meta: {
         title: "Shrey Soni | Frontend Engineer",
         description: "Portfolio of Shrey Soni, a Frontend Engineer crafting beautiful and performant UIs.",
+        keywords: [
+            "Frontend Engineer",
+            "Frontend Developer",
+            "Software Engineer",
+            "Senior Software Engineer",
+            "Javascript Engineer",
+            "Javascript Developer",
+            "UI Engineer",
+            "UI Developer",
+            "Web Developer",
+            "Web Engineer",
+            "react.js",
+            "next.js",
+            "redux",
+            "javascript",
+            "typescript",
+        ],
     },
     navbar: {
         links: [
@@ -17,12 +34,12 @@ export const config = {
             line1: "Frontend",
             line2: "Engineer",
         },
-        description: "Engineering for flow — where focus, intent, and execution converge.",
+        description: "Building interfaces that disappear through engineering excellence.",
     },
     about: {
         title: "About Me",
         description: [
-            "I am a passionate frontend engineer with a keen eye for design. Driven by a deep respect for [[flow]] — the state where attention sharpens and meaningful work happens without resistance. I believe flow isn’t limited to coding; it appears in music, film, and any craft refined with care. My approach to software engineering centers on reducing friction, designing clear mental models, and building interfaces that feel intuitive enough to disappear, allowing users — and teams — to stay fully immersed in the problem at hand.",
+            "I am a passionate frontend engineer with a keen eye for design. Driven by a deep respect for [[flow]], the state where attention sharpens and meaningful work happens without resistance. I believe flow isn’t limited to coding; it appears in music, film, and any craft refined with care. My approach to software engineering centers on reducing friction, designing clear mental models, and building interfaces that feel intuitive enough to disappear, allowing users and teams to stay fully immersed in the problem at hand.",
         ],
         skills: {
             design: {
@@ -47,7 +64,7 @@ export const config = {
             },
             {
                 title: "Brick&Bolt",
-                category: "Frontend Engineer",
+                category: "Software Engineer",
                 tenure: "Feb/23 - May/24",
                 image: "https://media.licdn.com/dms/image/v2/D560BAQFxsfYjPCJTDA/company-logo_200_200/company-logo_200_200/0/1712045497210/bricknbolt_logo?e=2147483647&v=beta&t=WTM8-vDChfkD7HvCfOEVZNcN_cEt8gwty5SZrz4noqY",
                 url: "https://www.bricknbolt.com/",
