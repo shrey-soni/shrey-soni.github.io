@@ -56,9 +56,16 @@ export const config = {
         title: "Experience",
         items: [
             {
-                title: "Tekion Corp",
+                title: "Target",
+                category: "Senior Software Engineer (Contract)",
+                tenure: "Nov/25 - Present",
+                url: "https://target.com",
+                image: "https://corporate.target.com/getmedia/890f3192-ce35-496a-a3cf-15fc0a8105d0/target_bullseye-logo_red.jpg?width=220",
+            },
+            {
+                title: "Tekion",
                 category: "Frontend Engineer - 2",
-                tenure: "May/24 - Present",
+                tenure: "May/24 - Nov/25",
                 url: "https://tekion.com",
                 image: "https://images.g2crowd.com/uploads/product/image/e8d2bd1fbe33858f182ede6ea019f466/tekion.png",
             },
