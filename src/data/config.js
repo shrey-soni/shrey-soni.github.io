@@ -57,7 +57,7 @@ export const config = {
         items: [
             {
                 title: "Target",
-                category: "Senior Software Engineer (Contract)",
+                category: "Senior Software Engineer",
                 tenure: "Nov/25 - Present",
                 url: "https://target.com",
                 image: "https://corporate.target.com/getmedia/890f3192-ce35-496a-a3cf-15fc0a8105d0/target_bullseye-logo_red.jpg?width=220",
